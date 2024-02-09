@@ -1,0 +1,156 @@
+.containerA{
+    display: grid;
+    width: 100%;
+    height: 1000px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr  ;
+    grid-template-areas: 
+        "header header header header"
+        "content-0 content-2 content-2 content-4"
+        "content-0 content-3 content-3 content-4"
+        "footer footer footer footer";  
+}
+.containerB{
+    display: grid;
+    width: 100%;
+    height: 1000px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "header header header header"
+        "content-0 content-1 content-1 content-4"
+        "content-0 content-2 content-3 content-4"
+        "footer footer footer footer";  
+}
+
+.containerC{
+    display: grid;
+    width: 100%;
+    height: 1000px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "header header header header"
+        "content-0 content-1 content-1 content-4"
+        "content-0 content-2 content-2 content-4"
+        "footer footer footer footer";  
+}
+.containerA > *{
+    border: 0px solid black;
+}
+.header{
+    grid-area: header;  
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.topva-right{
+    float: right;
+    color:black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+    margin-top: -4%;
+}
+.font-size{
+    font-size: 20px;
+    text-align: center;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 90%;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+    font-family: impact;
+    font-size: 110px;
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 35%; /* You can change this according to your preference */
+  background-color: whitesmoke; /* You can change this according to your preference */
+  color: black;/* You can change this according to your preference */
+  
+}
+
+/* This is the CSS code for the body element */
+body {
+  background-color:#cccccc;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* This will make the body element fill the entire viewport height */
+}
+.footer-text {
+  text-align: left; /* This will align the text to the left */
+  padding-left: 10px;
+  margin-left: -110px;
+  margin-top: -30px;/* This will add some space between the text and the edge of the footer */
+}
+.footer-icons {
+  text-align: center; /* This will center the icons */
+  padding-top: 10px; /* This will add some space between the icons and the text */
+  margin-top:5px;
+}
+.fa {
+ padding: 20px;
+ font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
